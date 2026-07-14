@@ -1,8 +1,31 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T13:26:41.310Z",
+  "generated_at": "2026-07-14T13:31:43.722Z",
   "base_url": "https://example.com",
   "currency": "ILS",
-  "count": 0,
-  "products": []
+  "count": 1,
+  "products": [
+    {
+      "id": "dafb3689-569d-47f7-bf7d-acc5a7fe08a8",
+      "slug": "tsyvr-tsba-7v4j4w",
+      "name": "ציור צבע",
+      "name_translations": {},
+      "description": "",
+      "short_description": "כאן לומדים לצייר תמורת סכום סימלי",
+      "sku": null,
+      "brand": null,
+      "price": 0,
+      "base_price": 0,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/course-dafb3689-569d-47f7-bf7d-acc5a7fe08a8-main-video-thumb.jpg"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/tsyvr-tsba-7v4j4w",
+      "categories": [],
+      "updated_at": "2026-07-14T13:29:46.256Z"
+    }
+  ]
 }

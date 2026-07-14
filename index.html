@@ -349,9 +349,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </style>
 </head>
 <body>
-
-
-    <div class="mobile-search-panel" id="mobile-search-panel">
+<div class="mobile-search-panel" id="mobile-search-panel">
       <div class="search-wrapper">
         <input type="text" id="mobile-search-input" placeholder="חיפוש קורסים..." autocomplete="off" />
         <button class="search-submit" id="mobile-search-submit" title="חיפוש">
@@ -365,17 +363,17 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/courses";</script>
-<script>window.ZAPPY_WEBSITE_ID = "0313cebd-af11-42b0-8f35-a0a21909f080";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "0313cebd-af11-42b0-8f35-a0a21909f080";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
-  <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
+  <button class="phone-header-btn" data-phone="0508866192" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
     </svg>
@@ -857,7 +855,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0508866192';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -1174,8 +1172,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <div class="index-testimonials-section__container">
     <div class="index-testimonials-section__header">
       <p><span class="index-testimonials-section__label">עדויות</span>
-      </p><h2 class="index-testimonials-section__title" style>משפחות מדברות על יפיפידע</h2>
-      <p class="index-testimonials-section__subtitle" style>אלפי הורים, סבים, קלינאיות תקשורת וילדים בחרו ביפיפידע — וזו הסיבה</p>
+      </p><h2 class="index-testimonials-section__title">משפחות מדברות על יפיפידע</h2>
+      <p class="index-testimonials-section__subtitle">אלפי הורים, סבים, קלינאיות תקשורת וילדים בחרו ביפיפידע — וזו הסיבה</p>
     </div>
     <div class="index-testimonials-section__grid zappy-preserve-css-grid" data-zappy-grid-align="start" data-original-item-width="624" data-original-gap="32px" style="--zappy-grid-cols: repeat(2, minmax(0, 1fr)); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       <!-- Featured Testimonial (START side in RTL = right) -->
@@ -1224,7 +1222,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
               <div class="index-testimonials-section__avatar">ד</div>
               <div class="index-testimonials-section__author-info">
                 <strong class="index-testimonials-section__name">דנה לוי</strong>
-                <span class="index-testimonials-section__role" style>קלינאית תקשורת, תל אביב</span>
+                <span class="index-testimonials-section__role">קלינאית תקשורת, תל אביב</span>
               </div>
             </div>
           </div>
@@ -1244,7 +1242,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
               <p>"הקצב הנוח והנגישות של התכנים מאפשרים לי ולילדי הנכדים ללמוד יחד. זו חוויה משפחתית מהנה ומלמדת."</p>
             </blockquote>
             <div class="index-testimonials-section__author">
-              <div class="index-testimonials-section__avatar" style>ש</div>
+              <div class="index-testimonials-section__avatar">ש</div>
               <div class="index-testimonials-section__author-info">
                 <strong class="index-testimonials-section__name">שרה אברמוב</strong>
                 <span class="index-testimonials-section__role">סבתא לשישה, חיפה</span>
@@ -1257,16 +1255,16 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <div class="index-testimonials-section__card index-testimonials-section__card--standard">
           <div class="index-testimonials-section__card-glow"></div>
           <div class="index-testimonials-section__card-inner">
-            <div class="index-testimonials-section__badge-row" style="cursor: text;">
-              <span class="index-testimonials-section__verified-badge" style="cursor: text;">אמין מאד</span>
+            <div class="index-testimonials-section__badge-row">
+              <span class="index-testimonials-section__verified-badge">אמין מאד</span>
             </div>
             <blockquote class="index-testimonials-section__quote">
-              <p style="cursor: text;">אני כבר הרבה זמן מטפל בילדים ועכשיו כשיש את היפיפידע זה הופך לפשוט מאד! </p>
+              <p>אני כבר הרבה זמן מטפל בילדים ועכשיו כשיש את היפיפידע זה הופך לפשוט מאד! </p>
             </blockquote>
             <div class="index-testimonials-section__author">
-              <div class="index-testimonials-section__avatar" style="cursor: text;">ד</div>
-              <div class="index-testimonials-section__author-info" style="cursor: text;">
-                <span class="index-testimonials-section__name" style="cursor: text;">דני לוי</span>
+              <div class="index-testimonials-section__avatar">ד</div>
+              <div class="index-testimonials-section__author-info">
+                <span class="index-testimonials-section__name">דני לוי</span>
               </div>
             </div>
           </div>
@@ -1276,14 +1274,14 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <div class="index-testimonials-section__card index-testimonials-section__card--standard">
           <div class="index-testimonials-section__card-glow"></div>
           <div class="index-testimonials-section__card-inner">
-            <div class="index-testimonials-section__badge-row" style="cursor: text;">פרצה למערכת תוכן לא אמין בכלל</div>
+            <div class="index-testimonials-section__badge-row">פרצה למערכת תוכן לא אמין בכלל</div>
             <blockquote class="index-testimonials-section__quote">
               
             </blockquote>
             <div class="index-testimonials-section__author">
               
-              <div class="index-testimonials-section__author-info" style="cursor: text;">
-                <span class="index-testimonials-section__name" style="cursor: text;">טעות</span>
+              <div class="index-testimonials-section__author-info">
+                <span class="index-testimonials-section__name">טעות</span>
               </div>
             </div>
           </div>
@@ -1293,16 +1291,16 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <div class="index-testimonials-section__card index-testimonials-section__card--standard">
           <div class="index-testimonials-section__card-glow"></div>
           <div class="index-testimonials-section__card-inner">
-            <div class="index-testimonials-section__badge-row" style="cursor: text;">
-              <span class="index-testimonials-section__verified-badge" style="cursor: text;">מנהל מערכת</span>
+            <div class="index-testimonials-section__badge-row">
+              <span class="index-testimonials-section__verified-badge">מנהל מערכת</span>
             </div>
             <blockquote class="index-testimonials-section__quote">
-              <p style="cursor: text;">אני ממליץ לכולם על היפיפידע זה פשוט וזה יפה!</p>
+              <p>אני ממליץ לכולם על היפיפידע זה פשוט וזה יפה!</p>
             </blockquote>
             <div class="index-testimonials-section__author">
-              <div class="index-testimonials-section__avatar" style="cursor: text;">מ</div>
-              <div class="index-testimonials-section__author-info" style="cursor: text;">
-                <span class="index-testimonials-section__name" style="cursor: text;">יוסי ג.&nbsp;<br />מנהל</span>
+              <div class="index-testimonials-section__avatar">מ</div>
+              <div class="index-testimonials-section__author-info">
+                <span class="index-testimonials-section__name">יוסי ג.&nbsp;<br />מנהל</span>
               </div>
             </div>
           </div>
@@ -1312,14 +1310,14 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <div class="index-testimonials-section__card index-testimonials-section__card--standard">
           <div class="index-testimonials-section__card-glow"></div>
           <div class="index-testimonials-section__card-inner">
-            <div class="index-testimonials-section__badge-row" style="cursor: text;">פרצה למערכת תוכן לא אמין בכלל</div>
+            <div class="index-testimonials-section__badge-row">פרצה למערכת תוכן לא אמין בכלל</div>
             <blockquote class="index-testimonials-section__quote">
               
             </blockquote>
             <div class="index-testimonials-section__author">
               
-              <div class="index-testimonials-section__author-info" style="cursor: text;">
-                <span class="index-testimonials-section__name" style="cursor: text;">אין ליתיחס</span>
+              <div class="index-testimonials-section__author-info">
+                <span class="index-testimonials-section__name">אין ליתיחס</span>
               </div>
             </div>
           </div>
@@ -1424,25 +1422,22 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <ul class="footer-contact">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
+            <span class="contact-text"><a href="mailto:yoss.the.boss.1@gmail.com">yoss.the.boss.1@gmail.com</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
-            <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
+            <span class="contact-text"><a href="tel:0508866192">0508866192</a></span>
           </li>
-          <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">[business_address]</span></a></li>
+          <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D7%A9%D7%90%D7%95%D7%9C%D7%96%D7%95%D7%9F%2C%20%D7%99%D7%A8%D7%95%D7%A9%D7%9C%D7%99%D7%9D%2C%20%D7%9E%D7%A8%D7%9B%D7%96%2C%20149543%2C%20%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="contact-text">שאולזון, ירושלים, מרכז, 149543, ישראל</span></a></li>
         </ul>
       </div>
 
       <!-- Business Hours -->
       <div class="footer-col footer-hours-col">
         <h4>שעות פעילות</h4>
-        <ul class="footer-hours">
-          <li><a href="/"><span class="hours-day">ימים א'–ה'</span> <span class="hours-time">09:00–18:00</span></a></li>
-          <li><a href="/"><span class="hours-day">יום ו'</span> <span class="hours-time">09:00–13:00</span></a></li>
-          <li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li>
-        </ul>
+        <ul class="footer-hours"><li><a href="/"><span class="hours-day">ימים א’–ו’</span> <span class="hours-time">09:00–17:00</span></a></li>
+<li><a href="/"><span class="hours-day">שבת</span> <span class="hours-time">סגור</span></a></li></ul>
       </div>
 
       <!-- Social Media -->
@@ -1474,7 +1469,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/0508866192" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
