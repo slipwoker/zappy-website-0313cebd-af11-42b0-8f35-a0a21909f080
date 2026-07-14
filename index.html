@@ -365,13 +365,13 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/courses";</script>
-<script>window.ZAPPY_WEBSITE_ID = "0313cebd-af11-42b0-8f35-a0a21909f080";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "0313cebd-af11-42b0-8f35-a0a21909f080";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? window.location.origin : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
     </svg>
   </button>
@@ -1174,8 +1174,8 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <div class="index-testimonials-section__container">
     <div class="index-testimonials-section__header">
       <p><span class="index-testimonials-section__label">עדויות</span>
-      </p><h2 class="index-testimonials-section__title">משפחות מדברות על יפיפידע</h2>
-      <p class="index-testimonials-section__subtitle">אלפי הורים, סבים, קלינאיות תקשורת וילדים בחרו ביפיפידע — וזו הסיבה</p>
+      </p><h2 class="index-testimonials-section__title" style>משפחות מדברות על יפיפידע</h2>
+      <p class="index-testimonials-section__subtitle" style>אלפי הורים, סבים, קלינאיות תקשורת וילדים בחרו ביפיפידע — וזו הסיבה</p>
     </div>
     <div class="index-testimonials-section__grid zappy-preserve-css-grid" data-zappy-grid-align="start" data-original-item-width="624" data-original-gap="32px" style="--zappy-grid-cols: repeat(2, minmax(0, 1fr)); display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch !important;" data-zappy-explicit-columns="true">
       <!-- Featured Testimonial (START side in RTL = right) -->
@@ -1224,7 +1224,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
               <div class="index-testimonials-section__avatar">ד</div>
               <div class="index-testimonials-section__author-info">
                 <strong class="index-testimonials-section__name">דנה לוי</strong>
-                <span class="index-testimonials-section__role">קלינאית תקשורת, תל אביב</span>
+                <span class="index-testimonials-section__role" style>קלינאית תקשורת, תל אביב</span>
               </div>
             </div>
           </div>
@@ -1244,7 +1244,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
               <p>"הקצב הנוח והנגישות של התכנים מאפשרים לי ולילדי הנכדים ללמוד יחד. זו חוויה משפחתית מהנה ומלמדת."</p>
             </blockquote>
             <div class="index-testimonials-section__author">
-              <div class="index-testimonials-section__avatar">ש</div>
+              <div class="index-testimonials-section__avatar" style>ש</div>
               <div class="index-testimonials-section__author-info">
                 <strong class="index-testimonials-section__name">שרה אברמוב</strong>
                 <span class="index-testimonials-section__role">סבתא לשישה, חיפה</span>
@@ -1257,15 +1257,15 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <div class="index-testimonials-section__card index-testimonials-section__card--standard">
           <div class="index-testimonials-section__card-glow"></div>
           <div class="index-testimonials-section__card-inner">
-            <div class="index-testimonials-section__badge-row">
-              <span class="index-testimonials-section__verified-badge">טקסט כאן</span>
+            <div class="index-testimonials-section__badge-row" style="cursor: text;">
+              <span class="index-testimonials-section__verified-badge" style="cursor: text;">אמין מאד</span>
             </div>
             <blockquote class="index-testimonials-section__quote">
-              <p>אני כבר הרבה זמן&nbsp;</p>
+              <p style="cursor: text;">אני כבר הרבה זמן מטפל בילדים ועכשיו כשיש את היפיפידע זה הופך לפשוט מאד!&nbsp;</p>
             </blockquote>
             <div class="index-testimonials-section__author">
-              <div class="index-testimonials-section__avatar">ד</div>
-              <div class="index-testimonials-section__author-info">
+              <div class="index-testimonials-section__avatar" style="cursor: text;">ל</div>
+              <div class="index-testimonials-section__author-info" style="cursor: text;">
                 <span class="index-testimonials-section__name">לני לוי<br /><span style="font-weight: 400; color: rgb(148, 163, 184); font-size: 0.8rem;">קלינאי תקשורת,חיפה</span></span>
               </div>
             </div>
@@ -1276,17 +1276,17 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
         <div class="index-testimonials-section__card index-testimonials-section__card--standard">
           <div class="index-testimonials-section__card-glow"></div>
           <div class="index-testimonials-section__card-inner">
-            <div class="index-testimonials-section__badge-row">
-              <span class="index-testimonials-section__verified-badge">טקסט כאן</span>
+            <div class="index-testimonials-section__badge-row" style="cursor: text;">
+              <span class="index-testimonials-section__verified-badge" style="cursor: text;">טקסט כאן</span>
             </div>
             <blockquote class="index-testimonials-section__quote">
-              <p>טקסט כאן</p>
+              
             </blockquote>
             <div class="index-testimonials-section__author">
-              <div class="index-testimonials-section__avatar">טקסט כאן</div>
-              <div class="index-testimonials-section__author-info">
+              
+              <div class="index-testimonials-section__author-info" style="cursor: text;">
                 <strong class="index-testimonials-section__name">שרה אברמוב</strong>
-                <span class="index-testimonials-section__role">טקסט כאן</span>
+                <span class="index-testimonials-section__role" style="cursor: text;">טקסט כאן</span>
               </div>
             </div>
           </div>
