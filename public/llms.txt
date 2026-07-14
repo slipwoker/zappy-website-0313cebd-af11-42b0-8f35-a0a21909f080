@@ -1,0 +1,130 @@
+# יפיפידע — Generative Engine Optimization Map
+
+> יפיפידע is an online educational platform focused on teaching lip reading (יפיפ) and general knowledge, primarily aimed at children and families. The platform features a secure registration form on the homepage, a testimonial section with verified badges, and a navigation option to a sister site called פיכפיכידע. The brand has a friendly, family-oriented, and educational vibe, with a strong emphasis on trust, reliability, and making learning fun for kids as an alternative to passive screen time.
+
+---
+
+## Pages
+
+### בית
+https://-0313cebd.zappy5.app
+הפלטפורמה המובילה ללימוד ליפיפ בחינם לילדים ולכל המשפחה. הרשמה מאובטחת, למידה מהנה ובטוחה במקום זמן מסך פסיבי. התחילו עכשיו!
+
+### איך זה עובד
+https://-0313cebd.zappy5.app/how-it-works
+גלו איך הפכנו את לימוד הליפיפ לחוויה פשוטה וממכרת לילדים. שיטה ייחודית, צעד אחר צעד, שמשלבת ידע כללי עם ביטחון בתקשורת. בואו ללמוד איתנו!
+
+### המלצות
+https://-0313cebd.zappy5.app/testimonials
+הצצה אמיתית לחוויות של משפחות שלמדו ליפיפ בחינם אצלנו. כל ההמלצות מגיעות עם תו אימות מאומת, כדי שתוכלו לסמוך עלינו בעיניים עצומות.
+
+### קורס אחות
+https://-0313cebd.zappy5.app/sister-course
+מכירים את פיכפיכידע? קורס האחות שלנו לוקח את הידע צעד קדימה עם תכנים משלימים ללימוד ליפיפ בעברית. מסע למידה שלא נגמר!
+
+### צור קשר
+https://-0313cebd.zappy5.app/contact
+יש שאלה על ליפיפ לילדים? רוצים לשמוע עוד על השיטה? צרו איתנו קשר ונחזור אליכם במהירות עם כל המידע. אנחנו כאן בשביל המשפחה שלכם!
+
+### Cart
+https://-0313cebd.zappy5.app/cart
+עגלת הקניות שלך
+
+### Checkout
+https://-0313cebd.zappy5.app/checkout
+תשלום
+
+### Login
+https://-0313cebd.zappy5.app/login
+התחברות לקוחות
+
+### Account
+https://-0313cebd.zappy5.app/account
+החשבון שלי
+
+### Order Success
+https://-0313cebd.zappy5.app/order-success
+תודה שנרשמת לקורס
+
+### תודה שפניתם אלינו
+https://-0313cebd.zappy5.app/thank-you
+יפיפידע - תודה שפניתם אלינו
+
+### Courses
+https://-0313cebd.zappy5.app/courses
+Browse all available courses.
+
+### Course Category
+https://-0313cebd.zappy5.app/category/:slug
+Browse courses in this category.
+
+### Course Detail
+https://-0313cebd.zappy5.app/courses/:slug
+Course details and curriculum.
+
+### Lesson
+https://-0313cebd.zappy5.app/lesson/:lessonId
+Lesson player.
+
+### My Learning
+https://-0313cebd.zappy5.app/my-learning
+Your enrolled courses and progress.
+
+### Certificate
+https://-0313cebd.zappy5.app/certificate/:code
+Verify a course completion certificate.
+
+## Legal & Policy
+
+### Privacy Policy
+https://-0313cebd.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-0313cebd.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-0313cebd.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About יפיפידע
+יפיפידע is an online educational platform focused on teaching lip reading (יפיפ) and general knowledge, primarily aimed at children and families. The platform features a secure registration form on the homepage, a testimonial section with verified badges, and a navigation option to a sister site called פיכפיכידע. The brand has a friendly, family-oriented, and educational vibe, with a strong emphasis on trust, reliability, and making learning fun for kids as an alternative to passive screen time.
+
+## Services/Products
+- קורס יפיפ (קריאת שפתיים)
+- קורס ידע כללי
+- טופס הרשמה מאובטח (שם, שם משפחה, שם הורה, גיל, מייל)
+- ניווט לאתר פיכפיכידע
+- המלצות משתמשים
+
+## Target Audience
+- ילדים ומשפחות המעוניינים ללמוד יפיפ (שפת שפתיים)
+- ילדים ומשפחות המעוניינים ללמוד יפיפ
+- קלינאי תקשורת ומחנכים
+- אזרחים ותיקים המעוניינים במיומנויות חדשות
+- חובבי שפות
+- כל אחד
+
+## Industry
+Online Education
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-0313cebd.zappy5.app/sitemap.xml
+- Robots: https://-0313cebd.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-0313cebd.zappy5.app/llms-full.txt
+- Products (JSON): https://-0313cebd.zappy5.app/products.json
+- Products (Google Merchant RSS): https://-0313cebd.zappy5.app/product-feed.xml
