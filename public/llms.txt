@@ -7,85 +7,85 @@
 ## Pages
 
 ### בית
-https://-0313cebd.zappy5.app
+https://example.com
 הפלטפורמה המובילה ללימוד ליפיפ בחינם לילדים ולכל המשפחה. הרשמה מאובטחת, למידה מהנה ובטוחה במקום זמן מסך פסיבי. התחילו עכשיו!
 
 ### איך זה עובד
-https://-0313cebd.zappy5.app/how-it-works
+https://example.com/how-it-works
 גלו איך הפכנו את לימוד הליפיפ לחוויה פשוטה וממכרת לילדים. שיטה ייחודית, צעד אחר צעד, שמשלבת ידע כללי עם ביטחון בתקשורת. בואו ללמוד איתנו!
 
 ### המלצות
-https://-0313cebd.zappy5.app/testimonials
+https://example.com/testimonials
 הצצה אמיתית לחוויות של משפחות שלמדו ליפיפ בחינם אצלנו. כל ההמלצות מגיעות עם תו אימות מאומת, כדי שתוכלו לסמוך עלינו בעיניים עצומות.
 
 ### קורס אחות
-https://-0313cebd.zappy5.app/sister-course
+https://example.com/sister-course
 מכירים את פיכפיכידע? קורס האחות שלנו לוקח את הידע צעד קדימה עם תכנים משלימים ללימוד ליפיפ בעברית. מסע למידה שלא נגמר!
 
 ### צור קשר
-https://-0313cebd.zappy5.app/contact
+https://example.com/contact
 יש שאלה על ליפיפ לילדים? רוצים לשמוע עוד על השיטה? צרו איתנו קשר ונחזור אליכם במהירות עם כל המידע. אנחנו כאן בשביל המשפחה שלכם!
 
 ### Cart
-https://-0313cebd.zappy5.app/cart
+https://example.com/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://-0313cebd.zappy5.app/checkout
+https://example.com/checkout
 תשלום
 
 ### Login
-https://-0313cebd.zappy5.app/login
+https://example.com/login
 התחברות לקוחות
 
 ### Account
-https://-0313cebd.zappy5.app/account
+https://example.com/account
 החשבון שלי
 
 ### Order Success
-https://-0313cebd.zappy5.app/order-success
+https://example.com/order-success
 תודה שנרשמת לקורס
 
 ### תודה שפניתם אלינו
-https://-0313cebd.zappy5.app/thank-you
+https://example.com/thank-you
 יפיפידע - תודה שפניתם אלינו
 
 ### Courses
-https://-0313cebd.zappy5.app/courses
+https://example.com/courses
 Browse all available courses.
 
 ### Course Category
-https://-0313cebd.zappy5.app/category/:slug
+https://example.com/category/:slug
 Browse courses in this category.
 
 ### Course Detail
-https://-0313cebd.zappy5.app/courses/:slug
+https://example.com/courses/:slug
 Course details and curriculum.
 
 ### Lesson
-https://-0313cebd.zappy5.app/lesson/:lessonId
+https://example.com/lesson/:lessonId
 Lesson player.
 
 ### My Learning
-https://-0313cebd.zappy5.app/my-learning
+https://example.com/my-learning
 Your enrolled courses and progress.
 
 ### Certificate
-https://-0313cebd.zappy5.app/certificate/:code
+https://example.com/certificate/:code
 Verify a course completion certificate.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-0313cebd.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-0313cebd.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-0313cebd.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -123,8 +123,8 @@ Online Education
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://-0313cebd.zappy5.app/sitemap.xml
-- Robots: https://-0313cebd.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://-0313cebd.zappy5.app/llms-full.txt
-- Products (JSON): https://-0313cebd.zappy5.app/products.json
-- Products (Google Merchant RSS): https://-0313cebd.zappy5.app/product-feed.xml
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
