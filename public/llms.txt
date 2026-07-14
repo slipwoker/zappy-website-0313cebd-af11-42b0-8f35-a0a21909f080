@@ -46,6 +46,10 @@ https://yefifyeda.zappy5.app/account
 https://yefifyeda.zappy5.app/order-success
 תודה שנרשמת לקורס
 
+### תודה שפניתם אלינו
+https://yefifyeda.zappy5.app/thank-you
+יפיפידע - תודה שפניתם אלינו
+
 ### Courses
 https://yefifyeda.zappy5.app/courses
 Browse all available courses.
@@ -69,10 +73,6 @@ Your enrolled courses and progress.
 ### Certificate
 https://yefifyeda.zappy5.app/certificate/:code
 Verify a course completion certificate.
-
-### תודה שפניתם אלינו
-https://yefifyeda.zappy5.app/thank-you
-יפיפידע - תודה שפניתם אלינו
 
 ## Legal & Policy
 

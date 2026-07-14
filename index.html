@@ -226,6 +226,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="גלו את עולם הליפיפ — יפיפידע" />
     <meta name="twitter:description" content="הפלטפורמה המובילה ללימוד ליפיפ בחינם לילדים ולכל המשפחה. הרשמה מאובטחת, למידה מהנה ובטוחה במקום זמן מסך פסיבי. התחילו עכשיו!" />
+    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"LocalBusiness","@id":"https://yefifyeda.zappy5.app#organization","name":"יפיפידע","url":"https://yefifyeda.zappy5.app","description":"יפיפידע is an online educational platform focused on teaching lip reading (יפיפ) and general knowledge, primarily aimed at children and families. The platform features a secure registration form on the homepage, a testimonial section with verified badges, and a navigation option to a sister site called פיכפיכידע. The brand has a friendly, family-oriented, and educational vibe, with a strong emphasis on trust, reliability, and making learning fun for kids as an alternative to passive screen time.","address":{"@type":"PostalAddress","streetAddress":"שאולזון, ירושלים, מרכז, 149543, ישראל"},"contactPoint":[{"@type":"ContactPoint","contactType":"customer service","email":"yoss.the.boss.1@gmail.com","telephone":"0508866192"}]},{"@type":"WebSite","@id":"https://yefifyeda.zappy5.app#website","url":"https://yefifyeda.zappy5.app","name":"יפיפידע","publisher":{"@id":"https://yefifyeda.zappy5.app#organization"}},{"@type":"ContactPage","@id":"https://yefifyeda.zappy5.app#contactpage","url":"https://yefifyeda.zappy5.app","name":"גלו את עולם הליפיפ — יפיפידע","mainEntity":{"@id":"https://yefifyeda.zappy5.app#organization"},"potentialAction":{"@type":"CommunicateAction","target":{"@type":"EntryPoint","urlTemplate":"https://yefifyeda.zappy5.app/api/email/contact-form","actionPlatform":["http/method=POST"],"contentType":"application/json"},"instrument":[{"@type":"PropertyValue","name":"first_name","propertyID":"text","valueRequired":true,"description":"ישראל"},{"@type":"PropertyValue","name":"last_name","propertyID":"text","valueRequired":true,"description":"ישראלי"},{"@type":"PropertyValue","name":"parent_name","propertyID":"text","valueRequired":true,"description":"ישראל ישראלי"},{"@type":"PropertyValue","name":"age","propertyID":"number","valueRequired":true,"description":"8"},{"@type":"PropertyValue","name":"email","propertyID":"email","valueRequired":true,"description":"israel@example.com"},{"@type":"PropertyValue","name":"privacy_consent","propertyID":"checkbox","valueRequired":true}]}}]}</script>
     <meta property="og:type" content="website" />
   <meta property="og:locale" content="he_IL" />
   
@@ -872,9 +873,17 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="index-hero-section">
+    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" data-hero-type="fullscreen-scrim" id="index-hero-section" style="; position: relative; overflow: hidden;">
+<div class="hero-video-background">
+  <div class="hero-video-overlay"></div>
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="/assets/hero-video-----------------------1784037288894.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <img loading="eager" fetchpriority="high" class="hero-video-fallback" src="/assets/site-index-hero-image-1.webp" alt="Hero background" decoding="async" />
+</div>
   <!-- Background Image -->
-  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A realistic, cinematic photo of a parent and child practicing lip-reading together in a dark, cozy learning room. Soft screen glow illuminates their faces, with mouth-shape practice cards visible on a table. Subtle neon cyan and lime educational lighting accents the background, creating a premium, focused learning studio atmosphere. The composition is warm, intimate, and family-friendly." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="הורה וילד מתרגלים ליפיפ בחדר לימוד חמים ומואר" class="hero-bg-image" data-hero-background="true" data-element-type="image" data-element-id="img-1784035873963-tt7rl2u4d" style="pointer-events: auto !important;" decoding="async" />
+  <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="A realistic, cinematic photo of a parent and child practicing lip-reading together in a dark, cozy learning room. Soft screen glow illuminates their faces, with mouth-shape practice cards visible on a table. Subtle neon cyan and lime educational lighting accents the background, creating a premium, focused learning studio atmosphere. The composition is warm, intimate, and family-friendly." width="1200" height="600" src="/assets/site-index-hero-image-1.webp" alt="הורה וילד מתרגלים ליפיפ בחדר לימוד חמים ומואר" class="hero-bg-image hero-original-image-hidden" data-hero-background="true" data-element-type="image" data-element-id="img-1784035873963-tt7rl2u4d" style="pointer-events: auto !important;; display: none !important;" decoding="async" />
 
   <!-- Scrim Overlay for Legibility -->
   <div class="hero-scrim" aria-hidden="true"></div>
@@ -896,7 +905,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   <div class="hero-cyan-glow" aria-hidden="true"></div>
 
   <!-- Content Overlay Group -->
-  <div class="hero-overlay-group">
+  <div class="hero-overlay-group hero-original-overlay-hidden" style="; display: none !important;">
     <h1 class="hero-headline">ללמוד ליפיפ בחינם — המקום הכי כיף ומשפחתי ברשת</h1>
     <h3 class="hero-subtitle">ליפיפ זה ללמוד לקרוא שפתיים עם הפה, ביחד עם כל המשפחה</h3>
     <p class="hero-description">ביפיפידע הילדים שלכם מחליפים זמן מסך פסיבי בלמידה פעילה, מפתחים מיומנויות תקשורת ומבלים זמן איכות משפחתי בסביבה בטוחה ומאובטחת.</p>
