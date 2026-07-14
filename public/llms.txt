@@ -7,85 +7,85 @@
 ## Pages
 
 ### בית
-https://example.com
+https://yefifyeda.zappy5.app
 הפלטפורמה המובילה ללימוד ליפיפ בחינם לילדים ולכל המשפחה. הרשמה מאובטחת, למידה מהנה ובטוחה במקום זמן מסך פסיבי. התחילו עכשיו!
 
 ### איך זה עובד
-https://example.com/how-it-works
+https://yefifyeda.zappy5.app/how-it-works
 גלו איך הפכנו את לימוד הליפיפ לחוויה פשוטה וממכרת לילדים. שיטה ייחודית, צעד אחר צעד, שמשלבת ידע כללי עם ביטחון בתקשורת. בואו ללמוד איתנו!
 
 ### המלצות
-https://example.com/testimonials
+https://yefifyeda.zappy5.app/testimonials
 הצצה אמיתית לחוויות של משפחות שלמדו ליפיפ בחינם אצלנו. כל ההמלצות מגיעות עם תו אימות מאומת, כדי שתוכלו לסמוך עלינו בעיניים עצומות.
 
 ### קורס אחות
-https://example.com/sister-course
+https://yefifyeda.zappy5.app/sister-course
 מכירים את פיכפיכידע? קורס האחות שלנו לוקח את הידע צעד קדימה עם תכנים משלימים ללימוד ליפיפ בעברית. מסע למידה שלא נגמר!
 
 ### צור קשר
-https://example.com/contact
+https://yefifyeda.zappy5.app/contact
 יש שאלה על ליפיפ לילדים? רוצים לשמוע עוד על השיטה? צרו איתנו קשר ונחזור אליכם במהירות עם כל המידע. אנחנו כאן בשביל המשפחה שלכם!
 
 ### Cart
-https://example.com/cart
+https://yefifyeda.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://yefifyeda.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://yefifyeda.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://yefifyeda.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://yefifyeda.zappy5.app/order-success
 תודה שנרשמת לקורס
 
-### תודה שפניתם אלינו
-https://example.com/thank-you
-יפיפידע - תודה שפניתם אלינו
-
 ### Courses
-https://example.com/courses
+https://yefifyeda.zappy5.app/courses
 Browse all available courses.
 
 ### Course Category
-https://example.com/category/:slug
+https://yefifyeda.zappy5.app/category/:slug
 Browse courses in this category.
 
 ### Course Detail
-https://example.com/courses/:slug
+https://yefifyeda.zappy5.app/courses/:slug
 Course details and curriculum.
 
 ### Lesson
-https://example.com/lesson/:lessonId
+https://yefifyeda.zappy5.app/lesson/:lessonId
 Lesson player.
 
 ### My Learning
-https://example.com/my-learning
+https://yefifyeda.zappy5.app/my-learning
 Your enrolled courses and progress.
 
 ### Certificate
-https://example.com/certificate/:code
+https://yefifyeda.zappy5.app/certificate/:code
 Verify a course completion certificate.
+
+### תודה שפניתם אלינו
+https://yefifyeda.zappy5.app/thank-you
+יפיפידע - תודה שפניתם אלינו
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://yefifyeda.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://yefifyeda.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://yefifyeda.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -95,11 +95,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 1**
 
 ### ציור צבע
-https://example.com/product/tsyvr-tsba-7v4j4w
+https://yefifyeda.zappy5.app/product/tsyvr-tsba-7v4j4w
 - Price: 0.00 ILS
 - Availability: In stock
 - Description: כאן לומדים לצייר תמורת סכום סימלי
-- Image: https://example.com/assets/course-dafb3689-569d-47f7-bf7d-acc5a7fe08a8-main-video-thumb.jpg
+- Image: https://yefifyeda.zappy5.app/assets/course-dafb3689-569d-47f7-bf7d-acc5a7fe08a8-main-video-thumb.jpg
 
 ---
 
@@ -130,8 +130,8 @@ Online Education
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://yefifyeda.zappy5.app/sitemap.xml
+- Robots: https://yefifyeda.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://yefifyeda.zappy5.app/llms-full.txt
+- Products (JSON): https://yefifyeda.zappy5.app/products.json
+- Products (Google Merchant RSS): https://yefifyeda.zappy5.app/product-feed.xml
